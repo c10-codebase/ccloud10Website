@@ -1,0 +1,65 @@
+.bordered-document {
+	margin: .9375rem;
+}
+
+.bordered-document .main-header {
+	top: .9375rem;
+	left: .9375rem;
+	right: .9375rem;
+}
+
+.bordered-document .top-spaced-line {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: block;
+	height: .9375rem;
+	background: #fff;
+	z-index: 999999;
+}
+
+.bordered-document .left-spaced-line {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: .9375rem;
+	background: #fff;
+	z-index: 999999;
+	left: 0;
+}
+
+.bordered-document .bottom-spaced-line {
+	position: fixed;
+	left: 0;
+	right: 0;
+	display: block;
+	height: .9375rem;
+	background: #fff;
+	z-index: 999999;
+	bottom: 0;
+}
+
+.bordered-document .right-spaced-line {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	display: block;
+	width: .9375rem;
+	background: #fff;
+	z-index: 999999;
+	right: 0;
+}
+
+.bordered-document #wrapper {
+	padding: 0 0 .9375rem;
+}
+
+.bordered-document .section-scroll {
+	right: 2rem;
+}
+
+.bordered-document #top-search {
+	margin: 0 -.938rem !important;
+}

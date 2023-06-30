@@ -1,0 +1,378 @@
+.blog-holder .col-wrap {
+	margin-bottom: 0;
+}
+
+.blog-holder .blog-desc {
+	border: 1px solid #f8f8f8;
+	padding: 0 .9375rem;
+}
+
+.blog-holder .blog-desc .blog-title {
+	position: relative;
+	padding: .9375rem 0 .4rem;
+	border-bottom: 1px solid #f8f8f8;
+	margin: 0 0 1.25rem;
+	-webkit-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;
+}
+
+.blog-holder .blog-desc h6 {
+	font-weight: 600;
+	line-height: 1.6;
+	margin: 0;
+}
+
+.blog-holder .blog-desc h6 a {
+	color: #55565b;
+}
+
+.blog-holder .blog-desc:hover .blog-title h6 a {
+	color: #5645ff;
+}
+
+.blog-holder .blog-share {
+	border-top: 1px solid #f8f8f8;
+	padding: 1.25rem .9375rem 0;
+	background: #f8f8f8;
+	margin: .9375rem -.9375rem 0;
+}
+
+.blog-holder .blog-share .social-network.with-text li {
+	vertical-align: text-top;
+	font-size: .75rem;
+	position: relative;
+}
+
+.blog-holder .blog-share .social-network.with-text li span {
+	font-size: 1rem;
+	margin-right: 0;
+}
+
+.blog-holder .blog-share .social-network.with-text li:before {
+	position: absolute;
+	content: '/';
+	right: -5px;
+	top: 0;
+}
+
+.blog-holder .blog-share .social-network.with-text li:first-child:before,.blog-holder .blog-share .social-network.with-text li:last-child:before {
+	display: none;
+}
+
+.blog-holder .blog-img {
+	margin: 0 0 1.875rem;
+}
+
+.blog-holder .blog-img img {
+	width: 100%;
+}
+
+.blog-holder .blog-footer {
+	margin: .9375rem -.9375rem 0;
+	padding: .9375rem .9375rem 0;
+}
+
+.reverse-grid .post-date {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: .3s all linear;
+	-o-transition: .3s all linear;
+	transition: .3s all linear;
+}
+
+.reverse-grid .post-img img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.reverse-grid:hover .post-date {
+	opacity: 1;
+	visibility: visible;
+}
+
+.reverse-grid:hover .post-img img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.comment-block {
+	border: 1px solid #f8f8f8;
+	background: #f8f8f8;
+	padding: 1.25rem .9375rem;
+}
+
+.comment-block h5 {
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.comment-block h5 a {
+	color: #55565b;
+}
+
+.comment-block .comment-slot {
+	position: relative;
+}
+
+.comment-block .comment-slot .thumb {
+	max-width: 3.125rem;
+}
+
+.comment-block .comment-slot .comment-desc {
+	padding: .9375rem;
+	position: relative;
+	margin-top: 1.875rem;
+}
+
+.comment-block .comment-slot .comment-desc a {
+	color: #55565b;
+}
+
+.comment-block .comment-slot .comment-desc a:hover {
+	color: #5645ff;
+}
+
+.comment-block .comment-reply {
+	margin: 1.875rem 0 0 0;
+}
+
+.comment-block .comment-reply .comment-desc {
+	border-top: 1px solid #f8f8f8;
+}
+
+.comment-block .jq-ry-container {
+	padding: 0 0;
+}
+
+.blog-lists {
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid #f8f8f8;
+	padding: .25rem .9375rem;
+	margin: 0 -.9375rem 0;
+}
+
+.blog-lists .blog-list-items li {
+	display: block;
+	font-size: .75rem;
+	position: relative;
+	margin-right: 10px;
+}
+
+.blog-lists .blog-list-items li a {
+	color: #000;
+}
+
+.blog-lists .blog-list-items li a:hover {
+	color: #5645ff;
+}
+
+.blog-lists .blog-list-items li:last-child {
+	margin-right: 0;
+}
+
+.related-posts .post-img {
+	margin-bottom: 0;
+}
+
+.related-posts .blog-lists {
+	border: none;
+	padding: 0 0;
+	margin: 0;
+}
+
+.related-posts .post-text {
+	padding: .5rem 0 0;
+}
+
+.related-posts .post-text a:hover {
+	color: #5645ff;
+}
+
+/******* author block ********/
+
+.about-author {
+	border: #ebedef 1px solid;
+	border-bottom: #ebedef 3px double;
+	padding: 1.875rem .9375rem;
+}
+
+.about-author h4 {
+	font-size: .875rem;
+	line-height: 1.2;
+	font-weight: 500;
+	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #55565b;
+}
+
+.about-author .author-av {
+	float: left;
+	width: 3.75rem;
+	margin-right: 1.25rem;
+}
+
+.about-author .author-av img {
+	width: 100%;
+}
+
+.about-author .author-desc {
+	overflow: hidden;
+	display: table-row;
+}
+
+.author-posts {
+	padding: 1.875rem 0 0;
+}
+
+/******* recent post styles *******/
+
+.post-block .post-holder {
+	position: relative;
+	padding-left: 5rem;
+	margin-top: 1.875rem;
+	min-height: 3.438rem;
+}
+
+.post-block .post-holder .post-avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3.438rem;
+	height: 3.438rem;
+	border-radius: 50%;
+}
+
+.post-block .post-holder .post-avatar img {
+	border-radius: 50%;
+}
+
+.post-block .post-holder .post-avatar:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 50%;
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.post-block .post-holder .post-desc h6 {
+	margin: 0;
+	font-size: .875rem;
+	font-weight: 500;
+	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #212121;
+}
+
+.post-block .post-holder .post-desc h6 a {
+	color: #212121;
+}
+
+.post-block .post-holder .post-desc p {
+	margin: 0;
+	font-size: .75rem;
+	color: #55565b;
+	line-height: 1.575rem;
+}
+
+.post-block .post-holder .post-desc p a {
+	color: #212121;
+}
+
+.post-block .post-holder:hover .post-desc a {
+	color: #5645ff;
+}
+
+.post-block .post-holder:hover .post-avatar:before {
+	opacity: 1;
+	visibility: visible;
+}
+
+/******* twitter feed styles *******/
+
+.twitter-feed .tweet-holder {
+	position: relative;
+	padding-left: 80px;
+	margin-top: 30px;
+}
+
+.twitter-feed .tweet-holder .twit-ico {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3.438rem;
+	color: #575757;
+	font-size: 2rem;
+	line-height: 1;
+	text-align: center;
+	-webkit-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;
+}
+
+.twitter-feed .tweet-holder .twit-desc h6 {
+	margin: 0;
+	font-size: .875rem;
+	font-weight: 500;
+	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #55565b;
+}
+
+.twitter-feed .tweet-holder .twit-desc h6 a {
+	color: #55565b;
+}
+
+.twitter-feed .tweet-holder .twit-desc h6 a:hover {
+	color: #5645ff;
+}
+
+.twitter-feed .tweet-holder .twit-desc p {
+	margin: 0;
+	font-size: .75rem;
+	color: #55565b;
+	line-height: 1.575rem;
+}
+
+.twitter-feed .tweet-holder .twit-desc p a {
+	color: #5645ff;
+	word-break: break-word;
+}
+
+.twitter-feed .tweet-holder .twit-desc p a:hover {
+	color: #5645ff;
+}
+
+.twitter-feed .tweet-holder:hover h6 a {
+	color: #5645ff;
+}
+
+.twitter-feed .tweet-holder:hover .twit-ico {
+	color: #5645ff;
+}
+
+/******* instagram widget styles *******/
+
+.instagram-widget ul {
+	margin-top: 1.875rem;
+}
+
+.instagram-widget ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 31%;
+	margin: 0 1% 2.5% 0;
+}
+
+.instagram-widget ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.instagram-widget ul li img {
+	width: 100%;
+}

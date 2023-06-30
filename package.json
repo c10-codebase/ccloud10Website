@@ -1,0 +1,63 @@
+{
+  "name": "cweb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@csstools/postcss-cascade-layers": "^3.0.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vtmn/css-navbar": "^1.2.0",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^4.6.2",
+    "bootstrap-datepicker": "^1.9.0",
+    "css": "^3.0.0",
+    "custom-css": "^1.0.1",
+    "fancybox": "^3.0.1",
+    "font-awesome": "^4.7.0",
+    "iframe": "^1.0.0",
+    "jquery": "^3.6.4",
+    "jquery.fancybox": "^2.1.5",
+    "main.css": "^3.0.0",
+    "navbar": "^2.1.0",
+    "ngx-owl-carousel-o": "^15.0.1",
+    "owl-carousel": "^1.0.0",
+    "popper.js": "^1.16.1-lts",
+    "rateyo": "^3.0.0-alpha.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-carousel": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-icomoon": "^2.5.7",
+    "react-iframe": "^1.8.5",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "revslider": "^5.4.201-8.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

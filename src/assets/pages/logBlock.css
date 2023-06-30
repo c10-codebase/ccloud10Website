@@ -1,0 +1,9 @@
+.logo-container {
+	text-align: center;
+}
+
+.logo-container .owl-carousel .owl-item {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}

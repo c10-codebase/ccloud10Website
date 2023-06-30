@@ -1,0 +1,54 @@
+.count-block {
+	color: #c1c5cd;
+}
+
+.count-block .container-fluid {
+	padding: 0;
+}
+
+.count-block .icon {
+	font-size: 3.125rem;
+}
+
+.count-block .number {
+	font-size: 1.25rem;
+	line-height: 1.2;
+	color: #c1c5cd;
+}
+
+.count-block .text {
+	font-size: .875rem;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.count-block .col-wrap {
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+	margin-bottom: 0;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.count-block .col-wrap:hover {
+	background: #5645ff;
+	color: #fff;
+}
+
+.count-block .col-wrap:hover .number {
+	color: #fff;
+}
+
+.count-block .col-wrap:hover .icon {
+	color: #fff;
+}
+
+.count-block.solid-block {
+	background: #212121;
+}
+
+.count-block.solid-block:before {
+	display: none;
+}
+

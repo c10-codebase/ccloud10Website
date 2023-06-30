@@ -1,0 +1,120 @@
+.post-grid {
+	color: #575757;
+}
+
+.post-grid a {
+	color: #575757;
+}
+
+.post-grid:hover .content-title a {
+	color: #212121;
+}
+
+.post-grid:hover .post-link-holder a {
+	color: #212121;
+}
+
+.post-grid:hover .post-link-holder a .fa {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.post-grid:hover .post-text-block {
+	background: #fff;
+}
+
+.post-grid:hover .post-date {
+	background: #000;
+}
+
+.post-grid:hover .post-img img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.post-grid .content-title {
+	text-transform: capitalize;
+}
+
+.post-img {
+	position: relative;
+	margin-bottom: -2rem;
+}
+
+.post-img img {
+	-webkit-transition: all linear .3s, -webkit-filter linear .3s;
+	transition: all linear .3s, -webkit-filter linear .3s;
+	-o-transition: filter linear .3s, all linear .3s;
+	transition: filter linear .3s, all linear .3s;
+	transition: filter linear .3s, all linear .3s, -webkit-filter linear .3s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.post-date {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	color: #fff;
+	background: #212121;
+	width: 4rem;
+	padding: .715rem .9rem;
+	line-height: 1.3;
+	font-weight: 500;
+}
+
+.post-text-block {
+	position: relative;
+	padding: 1.25rem;
+	-webkit-box-shadow: 0 .1429rem .6429rem .07143rem rgba(0, 0, 0, .1);
+	box-shadow: 0 .1429rem .6429rem .07143rem rgba(0, 0, 0, .1);
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+}
+
+.post-text-block p {
+	margin-top: 1.75rem;
+	margin-bottom: 0;
+}
+
+.post-text-block .content-sub-title {
+	margin: 0;
+}
+
+.post-text-block .post-meta {
+	margin-top: 2rem;
+}
+
+.post-link-holder,.post-social {
+	width: 50%;
+	float: left;
+}
+
+.post-link-holder {
+	line-height: .875rem;
+}
+
+.post-link-holder a {
+	display: inline-block;
+	position: relative;
+	padding-right: 1.429rem;
+}
+
+.post-link-holder .fa {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translate(-1rem, -50%);
+	-o-transform: translate(-1rem, -50%);
+	transform: translate(-1rem, -50%);
+	-webkit-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;
+}

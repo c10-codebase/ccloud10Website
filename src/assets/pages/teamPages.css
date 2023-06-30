@@ -1,0 +1,46 @@
+.team-box {
+	position: relative;
+}
+
+.team-box figcaption,.team-box .figcaption {
+	background: #5645ff;
+	color: #fff;
+}
+
+.team-box .team-des-v2 {
+	background: none;
+	color: #55565b;
+	position: static;
+	opacity: 1;
+	margin-top: 2.813rem;
+	padding: 0;
+}
+
+.team-box .team-des-v2 .content-title {
+	margin-bottom: 1.875rem;
+	text-transform: capitalize;
+}
+
+.team-box .team-des-v2 p {
+	margin-bottom: 0;
+}
+
+.team-box .team-des-v2 .sub {
+	color: #c1c5cd;
+	font-style: normal;
+}
+
+.team-box:hover .team-des-v2 .name {
+	color: #5645ff;
+}
+
+.team-box:hover .team-des-v2 .sub {
+	color: #55565b;
+}
+
+.sub {
+	font-size: .875rem;
+	line-height: 1.875rem;
+	color: #fff;
+	font-style: italic;
+}

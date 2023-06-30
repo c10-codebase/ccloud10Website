@@ -1,0 +1,162 @@
+.search-form-wrapper {
+	white-space: nowrap;
+	text-align: center;
+	position: fixed;
+	background: #171717;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	height: 100vh;
+	z-index: 999999999;
+}
+
+.search-form-wrapper:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	min-height: 100%;
+}
+
+.search-form-wrapper > * {
+	white-space: normal;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 99%;
+}
+
+.search-form-wrapper .close {
+	position: absolute;
+	top: 2rem;
+	right: 1rem;
+	color: #fff;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	opacity: 1;
+	font-size: 3rem;
+	background: none;
+}
+
+.search-form-wrapper .close:hover,.search-form-wrapper .close:focus {
+	background: none;
+	outline: none;
+}
+
+.search-form-wrapper .holder {
+	min-width: 300px;
+	max-width: 800px;
+	width: 95%;
+	position: relative;
+	-webkit-transform: translate(0, -200%);
+	-o-transform: translate(0, -200%);
+	transform: translate(0, -200%);
+	-webkit-transition: all .3s ease-in-out .06s;
+	-o-transition: all .3s ease-in-out .06s;
+	transition: all .3s ease-in-out .06s;
+}
+
+.search-form-wrapper input[type='search'] {
+	padding-right: 2rem;
+	line-height: 4rem;
+}
+
+.search-form-wrapper .form-control,.search-form-wrapper input,.search-form-wrapper textarea {
+	width: 100%;
+	padding-right: 3.5rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	height: 4.429rem;
+	color: #fff;
+}
+
+.search-form-wrapper .form-control::-moz-selection,.search-form-wrapper input::-moz-selection,.search-form-wrapper textarea::-moz-selection {
+	background: #f8f8f8;
+}
+
+.search-form-wrapper .form-control::selection,.search-form-wrapper input::selection,.search-form-wrapper textarea::selection {
+	background: #f8f8f8;
+}
+
+.search-form-wrapper .form-control::-moz-selection,.search-form-wrapper input::-moz-selection,.search-form-wrapper textarea::-moz-selection {
+	background: #f8f8f8;
+}
+
+.search-form-wrapper .form-control:focus::-webkit-input-placeholder,.search-form-wrapper input:focus::-webkit-input-placeholder,.search-form-wrapper textarea:focus::-webkit-input-placeholder {
+	text-indent: -999px;
+}
+
+.search-form-wrapper .form-control:focus::-moz-input-placeholder,.search-form-wrapper input:focus::-moz-input-placeholder,.search-form-wrapper textarea:focus::-moz-input-placeholder {
+	text-indent: -999px;
+}
+
+.search-form-wrapper .form-control:focus,.search-form-wrapper .form-control:hover,.search-form-wrapper input:focus,.search-form-wrapper input:hover,.search-form-wrapper textarea:focus,.search-form-wrapper textarea:hover {
+	border-color: #fff;
+	cursor: pointer;
+}
+
+.search-form-wrapper .form-control:focus ~ button,.search-form-wrapper .form-control:hover ~ button,.search-form-wrapper input:focus ~ button,.search-form-wrapper input:hover ~ button,.search-form-wrapper textarea:focus ~ button,.search-form-wrapper textarea:hover ~ button {
+	color: #fff;
+}
+
+.search-form-wrapper ::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.search-form-wrapper :-moz-placeholder {
+	color: #fff;
+}
+
+.search-form-wrapper ::-moz-placeholder {
+	color: #fff;
+}
+
+.search-form-wrapper :-ms-input-placeholder {
+	color: #fff;
+}
+
+.search-form-wrapper button {
+	text-align: center;
+	background: none;
+	border: 0;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	font-size: 1.5rem;
+	line-height: 3rem;
+	padding: 0;
+}
+
+.search-form-wrapper button:hover {
+	color: #fff;
+	outline: none;
+}
+
+.search-form-wrapper button:focus {
+	outline: none;
+}
+
+.search-active {
+	overflow: hidden;
+}
+
+.search-active .search-form-wrapper {
+	opacity: 1;
+	visibility: visible;
+}
+
+.search-active .holder {
+	-webkit-transform: translate(0);
+	-o-transform: translate(0);
+	transform: translate(0);
+}
